@@ -22,11 +22,11 @@ Features:
 Your tools folder should look like this:
 
 C:\Users\HP\tools        
-pomodoro.ps1                       
-pomodoro.cmd                
-alarm.mp3           
-break.mp3  
-pomodoro_log.txt 
+|-pomodoro.ps1                       
+|-pomodoro.cmd                
+|-alarm.mp3           
+|-break.mp3  
+|-pomodoro_log.txt 
 
 ---
 
@@ -147,6 +147,7 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
 
 
 
