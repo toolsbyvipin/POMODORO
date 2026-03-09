@@ -21,3 +21,140 @@ Features:
 
 Your tools folder should look like this:
 
+C:\tools
+pomodoro.ps1
+pomodoro.cmd
+alarm.mp3
+break.mp3
+pomodoro_log.txt
+
+---
+
+# 🚀 Installation
+
+### 1. Create tools folder
+
+
+mkdir C:\tools
+
+
+---
+
+### 2. Place files
+
+Put these files inside:
+
+
+pomodoro.ps1
+pomodoro.cmd
+alarm.mp3
+break.mp3
+
+
+---
+
+### 3. Add tools folder to PATH
+
+Run in PowerShell:
+
+
+[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\tools", "User")
+
+
+Restart PowerShell.
+
+---
+
+# ▶ Usage
+
+Run the Pomodoro timer from anywhere in PowerShell.
+
+### Start a 25-minute focus session
+
+
+pomodoro 25
+
+
+### Start a 45-minute focus session
+
+
+pomodoro 45
+
+
+### Start a 1-minute test timer
+
+
+pomodoro 1
+
+
+---
+
+# ⏳ What Happens
+
+1. Focus timer starts
+2. Progress bar updates every second
+3. Alarm sound plays when focus ends
+4. Break timer starts automatically
+5. Break music plays
+6. Session is logged
+7. Screen locks (optional)
+
+---
+
+# 📝 Productivity Log
+
+Sessions are saved automatically to:
+
+
+C:\tools\pomodoro_log.txt
+
+
+Example:
+
+
+2026-03-09 22:10 | 25 min focus session
+2026-03-09 22:40 | 25 min focus session
+
+
+---
+
+# 🎵 Sound Files 
+## (YOU CAN CHANGE IT WITH YOUR FAVOURITE SONGS BY RENAMING IT break.mp3 or alarm.mp3)
+
+Place your audio files here:
+
+
+C:\tools\alarm.mp3
+C:\tools\break.mp3
+
+
+These will be used for:
+
+- **alarm.mp3** → when focus ends
+- **break.mp3** → during break time
+
+---
+
+# 💻 Example Output
+
+==============================
+POMODORO TIMER
+
+Time: 24:59 [##------------------]
+Time: 24:58 [###-----------------]
+
+Focus session complete!
+
+Break Time (5 minutes)
+
+Time: 04:59 [#-------------------]
+
+
+---
+
+# 👨‍💻 Developer
+
+**VIPIN**
+
+
+✅ After creating this file, your project will look like a real
