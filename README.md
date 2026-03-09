@@ -36,8 +36,8 @@ pomodoro_log.txt
 
 
 Download the tools.zip uploaded above inside HP files 
-- Download the zip then select drive C click enter  
-- Click Yes 
+- Download the zip then select drive:C , click "enter"  
+- Click "Yes" 
 
 ---
 
@@ -138,6 +138,7 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
 
 
 
