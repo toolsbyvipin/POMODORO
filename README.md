@@ -35,20 +35,11 @@ pomodoro_log.txt
 ### 1. Create tools folder
 
 
-mkdir C:\tools
-
+download the tools.zip uploaded above
 
 ---
 
-### 2. Place files
-
-Put these files inside:
-
-
-pomodoro.ps1
-pomodoro.cmd
-alarm.mp3
-break.mp3
+### 2. 
 
 
 ---
@@ -158,3 +149,4 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
