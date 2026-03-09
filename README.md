@@ -38,7 +38,8 @@ pomodoro_log.txt
 Download the tools.zip uploaded above inside HP files 
 - Download the zip then select drive:C , click "enter"  
 - Click "Yes"
-- ENTER
+- Save your zip file here C:\Users\HP
+- Now unzip on same location
 
 ---
 
@@ -46,9 +47,16 @@ Restart PowerShell.
 
 ---
 
+Open Powershell again and paste : 
+
+```
+cd tools
+```
+
 # ▶ Usage
 
 Run the Pomodoro timer from anywhere in PowerShell.
+
 
 ### Start a 25-minute focus session
 
@@ -139,6 +147,7 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
 
 
 
