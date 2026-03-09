@@ -126,17 +126,8 @@ These will be used for:
 
 # 💻 Example Output
 
-==============================
-POMODORO TIMER
 
-Time: 24:59 [##------------------]
-Time: 24:58 [###-----------------]
-
-Focus session complete!
-
-Break Time (5 minutes)
-
-Time: 04:59 [#-------------------]
+<img src="https://github.com/toolsbyvipin/POMODORO/blob/main/Screenshot%20(126).png">
 
 
 ---
@@ -147,6 +138,7 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
 
 
 
