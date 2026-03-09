@@ -51,21 +51,21 @@ Run the Pomodoro timer from anywhere in PowerShell.
 
 ### Start a 25-minute focus session
 
-
+```
 pomodoro 25
-
+```
 
 ### Start a 45-minute focus session
 
-
+```
 pomodoro 45
-
+```
 
 ### Start a 1-minute test timer
 
-
+```
 pomodoro 1
-
+```
 
 ---
 
@@ -138,5 +138,6 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
 
 
