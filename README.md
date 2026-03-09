@@ -21,7 +21,7 @@ Features:
 
 Your tools folder should look like this:
 
-C:\tools
+C:\Users\HP\tools
 pomodoro.ps1
 pomodoro.cmd
 alarm.mp3
@@ -35,22 +35,11 @@ pomodoro_log.txt
 ### 1. Create tools folder
 
 
-download the tools.zip uploaded above
+Download the tools.zip uploaded above inside HP files 
+- Download the zip then select drive C click enter  
+- Click Yes 
 
 ---
-
-### 2. 
-
-
----
-
-### 3. Add tools folder to PATH
-
-Run in PowerShell:
-
-
-[Environment]::SetEnvironmentVariable("Path", $env:Path + ";C:\tools", "User")
-
 
 Restart PowerShell.
 
@@ -97,7 +86,7 @@ pomodoro 1
 Sessions are saved automatically to:
 
 
-C:\tools\pomodoro_log.txt
+C:\Users\HP\tools\pomodoro_log.txt
 
 
 Example:
@@ -115,8 +104,8 @@ Example:
 Place your audio files here:
 
 
-C:\tools\alarm.mp3
-C:\tools\break.mp3
+C:\Users\HP\tools\alarm.mp3
+C:\Users\HP\tools\break.mp3
 
 
 These will be used for:
@@ -149,4 +138,5 @@ Time: 04:59 [#-------------------]
 
 
 ✅ After creating this file, your project will look like a real
+
 
