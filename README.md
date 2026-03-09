@@ -127,6 +127,8 @@ These will be used for:
 # 💻 Example Output
 
 
+
+
 <img src="https://github.com/toolsbyvipin/POMODORO/blob/main/Screenshot%20(126).png">
 
 
@@ -138,6 +140,7 @@ These will be used for:
 
 
 ✅ After creating this file, your project will look like a real
+
 
 
 
